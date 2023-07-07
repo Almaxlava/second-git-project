@@ -25,6 +25,19 @@ $ git push -u origin main/master
 HEAD указывает на коммит сделанный последним
 
 
+```mermaid
+%% Статусы файлов в Git  
+graph LR;
+  untracked -- "git add" --> staged;
+  staged -- "git commit -m 'TEXT'" --> tracked/comitted;
+  tracked/comitted -- "измененный файл" --> modified;
+  modified -- "git add" --> staged;
+  staged -- "git commit -m 'TEXT'" --> tracked/comitted;
+```
+
+
+
+
 
 
 
