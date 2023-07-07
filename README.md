@@ -21,6 +21,8 @@ $ git push -u origin main/master
 
 #### git log --oneline :Получить сокращённый лог коммита  
 
+## HEAD  
+HEAD указывает на коммит сделанный последним
 
 
 
